@@ -47,7 +47,7 @@ export default function Dash(props) {
       <main className="flex w-full h-screen">
         {/* side bar */}
         <aside className="w-80 h-screen bg-gray shadow-md w-fulll hidden sm:block">
-          <div className="flex flex-col justify-between h-screen p-4 bg-gray-200">
+          <div className="flex flex-col justify-between h-screen p-4 bg-white">
             <div className="text-sm">
               <Link href="/servertoserver">
                 <div className="bg-gray-900 bg-white text-gray-600 p-2 rounded mt-2 cursor-pointer hover:bg-white hover:opacity-100 hover:text-orange-primary transform md:hover:translate-x-8 duration-300 hover:shadow-xl border-l-4 hover:border-orange-primary md:focus:translate-x-8 ">
