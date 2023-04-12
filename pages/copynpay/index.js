@@ -45,7 +45,7 @@ export default function CopynPay() {
       //set link for script
       lnk = `https://${baseUrl}/v1/paymentWidgets.js?checkoutId=${ndc}`;
 
-      redirect = `https://api-integration-peach-payments.vercel.app/copynpay/${ndc}`;
+      redirect = `https://dexter2.vercel.app/${ndc}`;
 
       //update card widget
       setWidget(
