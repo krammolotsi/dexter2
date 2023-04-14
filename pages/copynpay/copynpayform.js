@@ -71,7 +71,7 @@ export default function CopynPayForm(props) {
                     type="checkbox"
                     name="environment"
                     placeholder="environment"
-                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg text-gray-600 placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
+                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg text-black-primary placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
                     onChange={({ target }) => setEnvironment(target.value)}
                     value={environment}
                   >
@@ -85,7 +85,7 @@ export default function CopynPayForm(props) {
                   <input
                     type="text"
                     placeholder="Access Token"
-                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
+                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg text-black-primary placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
                     onChange={({ target }) => setBearerToken(target.value)}
                     value={bearerToken}
                   />
@@ -95,7 +95,7 @@ export default function CopynPayForm(props) {
                   <input
                     type="text"
                     placeholder="Entity Id"
-                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
+                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg text-black-primary placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
                     onChange={({ target }) => setEntityId(target.value)}
                     value={entityId}
                   />
@@ -105,7 +105,7 @@ export default function CopynPayForm(props) {
                   <input
                     type="text"
                     placeholder="Amount"
-                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
+                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg text-black-primary placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
                     onChange={({ target }) => setAmount(target.value)}
                     value={amount}
                   />
@@ -115,7 +115,7 @@ export default function CopynPayForm(props) {
                   <input
                     type="text"
                     placeholder="Currency"
-                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
+                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg text-black-primary placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
                     onChange={({ target }) => setCurrency(target.value)}
                     value={currency}
                   />
@@ -126,7 +126,7 @@ export default function CopynPayForm(props) {
                     type="checkbox"
                     name="paymentType"
                     placeholder="Payment Type"
-                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg text-gray-600 placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
+                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg text-black-primary placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
                     onChange={({ target }) => setPaymentType(target.value)}
                     value={paymentType}
                   >
