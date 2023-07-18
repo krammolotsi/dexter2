@@ -77,7 +77,7 @@ export default function CopynPayForm(props) {
                   >
                     <option value="">Select Test or Live</option>
                     <option value="eu-prod.oppwa.com">Production</option>
-                    <option value="eu-test.oppwa.com">Sandbox</option>
+                    <option value="eu-test.oppwa.comeu-test.oppwa.com">Sandbox</option>
                   </select>
                 </div>
                 {/* Bearer */}
@@ -141,7 +141,7 @@ export default function CopynPayForm(props) {
                   <input
                     type="text"
                     placeholder="Merchant Transaction ID"
-                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
+                    className="mt-1 block w-full p-3 border-none bg-white h-11 rounded-xl shadow-lg text-black-primary placeholder-gray-dark hover:bg-blue-light focus:ring-2 focus:ring-blue-dark"
                     onChange={({ target }) =>
                       setMerchantTransactionId(target.value)
                     }
