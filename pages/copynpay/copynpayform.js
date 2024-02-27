@@ -49,6 +49,8 @@ export default function CopynPayForm(props) {
     props.onEnteredData(copyNpayData);
   }
 
+
+
   return (
       <div className="font-sans overflow-hidden w-full bg-red-primary">
         <div className="relative flex flex-col sm:justify-center items-center bg-white pt-12 md:pt-8">

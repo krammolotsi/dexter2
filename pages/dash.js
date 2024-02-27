@@ -8,18 +8,10 @@ export default function Dash(props) {
         <title>API TESTS</title>
       </Head>
       <header className="w-full bg-white p-4 flex justify-between items-center">
+         {/* Navbar */}
         <nav className="flex items-center">
           <img className="w-7 h-7" src="/logo.png" />
           <div className="text-gray-600 text-xs hidden sm:block ml-2">
-          <Link href="/copynpay/applepay" legacyBehavior>
-              
-              <a
-                href=""
-                className="bg-gray-900 hover:bg-gray-700 p-2 rounded cursor-pointer"
-              >
-                Apple Pay
-              </a>
-            </Link>
             <Link href="/copynpay" legacyBehavior>
               
               <a

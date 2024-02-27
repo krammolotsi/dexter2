@@ -14,7 +14,7 @@ export default function CopynPay() {
   let ndc = "";
   let redirect = "";
 
-  //post data
+  //post data from first form
   function getFormData(enteredData) {
     localStorage.clear();
 
@@ -26,7 +26,7 @@ export default function CopynPay() {
       //set url variable for widget
       let baseUrl = enteredData.environment;
      
-      //Post request
+      //Post request get checkout ID
       const makePayment = await cnpPost(enteredData);
   
       //checkout id
@@ -77,6 +77,7 @@ export default function CopynPay() {
 
           <div className="flex-auto w-1/2 bg-white">  
           <div className=" bg-white w-full"> {widget}</div>
+          
             <CopynPaySearchForm />
           </div>
         </div>
