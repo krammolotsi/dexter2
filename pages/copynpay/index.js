@@ -42,19 +42,35 @@ export default function CopynPay() {
       const myJSON = JSON.stringify(myObj);
       localStorage.setItem("testJSON", myJSON);
 
-      //set link for script
+     //set link for script
       lnk = `https://${baseUrl}/v1/paymentWidgets.js?checkoutId=${ndc}`;
 
       redirect = `https://dexter2.vercel.app/copynpay/${ndc}`;
 
+      //google play
+      let wpwlOptions= "";
+
       //update card widget
       setWidget(
         <div className="">
-          <Script src={lnk} />
+          <Script>
+          src={lnk}
+          onLoad={() => {
+         wpwlOptions = {
+          style:"card",
+          disableCardExpiryDateValidation: true,
+          googlePay: {
+              gatewayMerchantId: "8acda4c78262a03d01828ce3db993865",
+              merchantId: "BCR2DN4TXWQZX5BQ"
+          }
+      }
+        }}
+          </Script>
+        
           <form
             action={redirect}
             className="paymentWidgets"
-            data-brands="VISA MASTER AMEX"
+            data-brands="VISA MASTER AMEX GOOGLEPAY"
           ></form>
         </div>
       );
