@@ -67,12 +67,6 @@ export default function Dash(props) {
                   <a> EFT Switch</a>
                 </div>
               </Link>
-
-              <Link href="/checkout" legacyBehavior>
-                <div className="bg-gray-900 bg-white text-gray-600 p-2 rounded mt-2 cursor-pointer hover:bg-white hover:opacity-100 hover:text-orange-primary transform md:hover:translate-x-8 duration-300 hover:shadow-xl border-l-4 hover:border-orange-primary md:focus:translate-x-8 ">
-                  <a> Custom Checkout</a>
-                </div>
-              </Link>
             </div>
           </div>
         </aside>
