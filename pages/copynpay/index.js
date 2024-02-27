@@ -54,7 +54,7 @@ export default function CopynPay() {
       setWidget(
         <div className="">
           <Script src={lnk}/>
-          <Script>
+          {/* <Script>
           onLoad={() => {
          wpwlOptions = {
           style:"card",
@@ -65,7 +65,7 @@ export default function CopynPay() {
           }
       }
         }}
-          </Script>
+          </Script> */}
         
           <form
             action={redirect}
