@@ -53,8 +53,8 @@ export default function CopynPay() {
       //update card widget
       setWidget(
         <div className="">
+          <Script src={lnk}/>
           <Script>
-          src={lnk}
           onLoad={() => {
          wpwlOptions = {
           style:"card",
