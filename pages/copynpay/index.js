@@ -48,32 +48,44 @@ export default function CopynPay() {
       redirect = `https://dexter2.vercel.app/copynpay/${ndc}`;
 
       //google play 1
-      let wpwlOptions= "";
+    //  let wpwlOptions= "";
 
       //update card widget
+      // setWidget(
+      //   <div className="">
+      //     <Script src={lnk}/>
+      //      <Script>
+      //     onLoad={() => {
+      //    wpwlOptions = {
+      //     style:"card",
+      //     disableCardExpiryDateValidation: true,
+      //     googlePay: {
+      //         gatewayMerchantId: "8acda4c78262a03d01828ce3db993865",
+      //         merchantId: "BCR2DN4TXWQZX5BQ"
+      //     }
+      // }
+      //   }}
+      //     </Script> 
+                
+      //     <form
+      //       action={redirect}
+      //       className="paymentWidgets"
+      //       data-brands="VISA MASTER AMEX GOOGLEPAY"
+      //     ></form>
+      //   </div>
+      // );
+
       setWidget(
         <div className="">
-          <Script src={lnk}/>
-          {/* <Script>
-          onLoad={() => {
-         wpwlOptions = {
-          style:"card",
-          disableCardExpiryDateValidation: true,
-          googlePay: {
-              gatewayMerchantId: "8acda4c78262a03d01828ce3db993865",
-              merchantId: "BCR2DN4TXWQZX5BQ"
-          }
-      }
-        }}
-          </Script> */}
-        
+          <Script src={lnk} />
           <form
             action={redirect}
             className="paymentWidgets"
-            data-brands="VISA MASTER AMEX GOOGLEPAY"
+            data-brands="VISA MASTER AMEX"
           ></form>
         </div>
       );
+
     };
 
     //run function
