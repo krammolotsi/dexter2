@@ -47,7 +47,7 @@ export default function CopynPay() {
 
       redirect = `https://dexter2.vercel.app/copynpay/${ndc}`;
 
-      //google play
+      //google play 1
       let wpwlOptions= "";
 
       //update card widget
