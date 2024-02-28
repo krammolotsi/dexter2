@@ -6,7 +6,7 @@ export default function servertoserver() {
     <Dash children={ <div>
 <form action="https://www.peachpayments.com" class="paymentWidgets" data-brands="VISA MASTER GOOGLEPAY"></form>
         
-        <Script src="https://eu-test.oppwa.com/v1/paymentWidgets.js?checkoutId=61408D9772080270F875DC2075C834A0.uat01-vm-tx01"></Script>     
+        <Script src="https://eu-test.oppwa.com/v1/paymentWidgets.js?checkoutId=41BF5D73230C4495B43A0089FD8FAE03.uat01-vm-tx03"></Script>     
           <Script>
            onLoad={() => {
          wpwlOptions = {
