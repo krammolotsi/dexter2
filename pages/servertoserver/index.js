@@ -5,8 +5,21 @@ export default function servertoserver() {
   return (
     <Dash children={ <div>
 <form action="https://www.peachpayments.com" class="paymentWidgets" data-brands=" VISA APPLEPAY"></form>
+
+
         
-        <Script src="https://eu-prod.oppwa.com/v1/paymentWidgets.js?checkoutId=D03D5BCB58FBFBFF64C3AE538998F89E.prod01-vm-tx11"></Script>     
+        <Script src="https://eu-prod.oppwa.com/v1/paymentWidgets.js?checkoutId=F77A6A9B3FD46B115101FF8019F23C68.prod01-vm-tx02"></Script>     
+         
+        <Script> 
+  onLoad={() => {
+var wpwlOptions = {
+  applePay: {
+    displayName: "MyStore",
+    total: { label: "COMPANY, INC." }
+  }
+}}}
+</Script>
+         
           {/* <Script>
            onLoad={() => {
          wpwlOptions = {
