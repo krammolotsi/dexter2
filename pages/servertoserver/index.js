@@ -4,9 +4,9 @@ import Script from "next/script";
 export default function servertoserver() {
   return (
     <Dash children={ <div>
-<form action="https://www.peachpayments.com" class="paymentWidgets" data-brands="APPLEPAY"></form>
+<form action="https://www.peachpayments.com" class="paymentWidgets" data-brands=" VISA APPLEPAY"></form>
         
-        <Script src="https://eu-prod.oppwa.com/v1/paymentWidgets.js?checkoutId=1C0E44AE887ED736818BBB1EA0EEC78D.prod01-vm-tx14"></Script>     
+        <Script src="https://eu-prod.oppwa.com/v1/paymentWidgets.js?checkoutId=D03D5BCB58FBFBFF64C3AE538998F89E.prod01-vm-tx11"></Script>     
           {/* <Script>
            onLoad={() => {
          wpwlOptions = {
