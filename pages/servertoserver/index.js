@@ -8,9 +8,9 @@ export default function servertoserver() {
 
 
         
-        <Script src="https://eu-prod.oppwa.com/v1/paymentWidgets.js?checkoutId=06F08A69C16877183EE0076E010AF909.prod01-vm-tx11"></Script>     
+        <Script src="https://eu-prod.oppwa.com/v1/paymentWidgets.js?checkoutId=A65D2D138497A6066F2EC322FD5AFFB3.prod01-vm-tx13"></Script>     
          
-        <Script> 
+         <Script> 
   onLoad={() => {
 var wpwlOptions = {
   applePay: {
@@ -18,7 +18,7 @@ var wpwlOptions = {
     total: { label: "COMPANY, INC." }
   }
 }}}
-</Script>
+</Script> 
          
           {/* <Script>
            onLoad={() => {
