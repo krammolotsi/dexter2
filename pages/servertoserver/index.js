@@ -4,13 +4,13 @@ import Script from "next/script";
 export default function servertoserver() {
   return (
     <Dash children={ <div>
-<form action="https://www.peachpayments.com" class="paymentWidgets" data-brands="APPLEPAY"></form>
+<form action="https://www.peachpayments.com" class="paymentWidgets" data-brands="VISA GOOGLEPAY"></form>
 
 
         
-        <Script src="https://eu-prod.oppwa.com/v1/paymentWidgets.js?checkoutId=A65D2D138497A6066F2EC322FD5AFFB3.prod01-vm-tx13"></Script>     
+        <Script src="https://eu-prod.oppwa.com/v1/paymentWidgets.js?checkoutId=372EDC66B0C18C6E4EE6A139841E969D.prod02-vm-tx05"></Script>     
          
-         <Script> 
+         {/* <Script> 
   onLoad={() => {
 var wpwlOptions = {
   applePay: {
@@ -18,9 +18,9 @@ var wpwlOptions = {
     total: { label: "COMPANY, INC." }
   }
 }}}
-</Script> 
+</Script>  */}
          
-          {/* <Script>
+          <Script>
            onLoad={() => {
          wpwlOptions = {
            style:"card",
@@ -31,7 +31,7 @@ var wpwlOptions = {
            }
        }
          }}
-           </Script>  */}
+           </Script>  
     </div>} />
   )
 }
