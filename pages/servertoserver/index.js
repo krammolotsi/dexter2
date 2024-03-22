@@ -8,7 +8,7 @@ export default function servertoserver() {
 
 
         
-  <Script src="https://eu-prod.oppwa.com/v1/paymentWidgets.js?checkoutId=744D3D57DC541537DEB71D201D11311F.prod02-vm-tx09"></Script>     
+  <Script src="https://eu-prod.oppwa.com/v1/paymentWidgets.js?checkoutId=682CD9986A891547C65BC0577B16DFC1.prod02-vm-tx16"></Script>     
          
          {/* <Script> 
   onLoad={() => {
