@@ -8,7 +8,7 @@ export default function servertoserver() {
 
 
         
-        <Script src="https://eu-prod.oppwa.com/v1/paymentWidgets.js?checkoutId=744D3D57DC541537DEB71D201D11311F.prod02-vm-tx09"></Script>     
+  <Script src="https://eu-prod.oppwa.com/v1/paymentWidgets.js?checkoutId=744D3D57DC541537DEB71D201D11311F.prod02-vm-tx09"></Script>     
          
          {/* <Script> 
   onLoad={() => {
@@ -26,6 +26,8 @@ var wpwlOptions = {
            style:"card",
            disableCardExpiryDateValidation: true,
          googlePay: {
+          buttonColor: "white",
+          buttonSizeMode: "fill",
                gatewayMerchantId: "8acda4c78262a03d01828ce3db993865",
                merchantId: "BCR2DN4TXWQZX5BQ"
            }
